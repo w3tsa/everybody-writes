@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login {
+  margin-top: 5rem;
+  max-width: 25rem;
+}
+
+.explore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin: 1em;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+#carouselExampleCaptions {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.close {
+  display: none;
+}
+
+@media (max-width: 1020px) {
+  .explore {
+    display: flex;
+    flex-direction: column;
+  }
+}
